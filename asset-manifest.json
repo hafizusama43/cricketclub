@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cricketclub/static/css/main.21270db9.css",
+    "main.js": "/cricketclub/static/js/main.fccacb21.js",
+    "static/media/One.jpeg": "/cricketclub/static/media/One.99cc6ea32faab2838ebb.jpeg",
+    "static/media/Kohli.png": "/cricketclub/static/media/Kohli.1275020d0d248d2c5f99.png",
+    "static/media/Babar.png": "/cricketclub/static/media/Babar.87d5f91567f8d50751a7.png",
+    "static/media/Asad.png": "/cricketclub/static/media/Asad.0a8a2b5d8757168342b9.png",
+    "static/media/T20Rank.png": "/cricketclub/static/media/T20Rank.7e4cc624f716b8cde617.png",
+    "static/media/Shadab.png": "/cricketclub/static/media/Shadab.d894f7c116ddb32cee98.png",
+    "static/media/Virat.jpg": "/cricketclub/static/media/Virat.c06aa9fafae7f7e228ef.jpg",
+    "static/media/EnglandCoach.jpg": "/cricketclub/static/media/EnglandCoach.23971a8448854690ec0e.jpg",
+    "static/media/Err.png": "/cricketclub/static/media/Err.541053d0825e37d0b178.png",
+    "static/media/Whatsapp.png": "/cricketclub/static/media/Whatsapp.1dd8ca2765f1f177ab22.png",
+    "static/media/Instagram.png": "/cricketclub/static/media/Instagram.75e0546a6b5abe4c0506.png",
+    "static/media/Twitter.png": "/cricketclub/static/media/Twitter.894988327f8d68209e91.png",
+    "static/media/Gmail.png": "/cricketclub/static/media/Gmail.a2f2146f929409405da0.png",
+    "index.html": "/cricketclub/index.html",
+    "main.21270db9.css.map": "/cricketclub/static/css/main.21270db9.css.map",
+    "main.fccacb21.js.map": "/cricketclub/static/js/main.fccacb21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21270db9.css",
+    "static/js/main.fccacb21.js"
+  ]
+}
