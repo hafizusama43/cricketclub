@@ -1,0 +1,69 @@
+/* Card */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 0.2);
+}
+
+
+/* Home Players card */
+.home_players{
+    max-height: 550px;
+}
+.home_players img{
+    height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .home_players img{
+        height: 300px;
+    }
+}
+
+
+.home_players a{
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+.home_players a:hover{
+    
+    color: green;
+    border-bottom: 2px solid green;
+    transition: 0.4s;
+}
+
+/* Home news card */
+.home_news p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* News page card */
+.cardNews{
+    border-radius: 5px;
+    max-width: 1200px;
+    margin: 40px;
+    border: 1px solid rgb(151, 139, 139);
+   
+}
+.cardNews img{
+    margin-left: -15px;
+    height: 320px;
+    width: 340px;
+    object-fit: cover;
+}
+.cardNews p{
+    margin-top: 10px;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    .cardNews{
+        border-radius: 5px;
+        max-width: 1200px;
+        margin: 20px;
+        border: 1px solid rgb(151, 139, 139);
+       
+    }
+}

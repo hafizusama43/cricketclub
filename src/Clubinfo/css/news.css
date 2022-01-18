@@ -1,0 +1,8 @@
+.news{
+    padding: 20px;
+}
+@media screen and (max-width: 600px) {
+    .news{
+        padding: 5px;
+    }
+}

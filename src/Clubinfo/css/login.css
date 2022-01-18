@@ -1,0 +1,36 @@
+.login {
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login h2 {
+    padding: 20px 0px;
+}
+
+.login input {
+    margin: 40px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.login .form {
+    padding: 5px 5px;
+
+}
+
+.login button {
+    display: inline-block;
+    margin: 40px 0px;
+    width: 100%;
+}
+.login a{
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.login a:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    transition: 0.4s;
+}

@@ -1,0 +1,33 @@
+.error{
+    margin:0 auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 20px;
+    text-align: center;
+}
+.error img{
+    width: 25%;
+}
+.error p{
+    color: red;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.error .link{
+    text-decoration: none;
+    padding: 10px;
+    color: green;
+    border-bottom: 2px solid white;
+}
+.error .link:hover{
+    transition: 0.4s;
+    border-bottom: 2px solid green;
+
+}
+@media screen and (max-width: 600px){
+    .error{
+        height: 80vh;
+    }
+}

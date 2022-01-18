@@ -1,0 +1,120 @@
+/* Home page */
+
+/* Top section */
+.top_section {
+    margin: auto;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.top_section .row img {
+
+    width: 100%;
+    max-height: 450px;
+    background-size: cover;
+}
+
+/* Same section */
+.same {
+
+    margin: 80px auto 50px auto;
+    padding: 10px 20px;
+    /* text-align: center; */
+}
+
+.same .row {
+    display: flex;
+    justify-content: center;
+}
+
+.same h2 {
+    margin-bottom: 40px;
+}
+
+.floating {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 10%;
+    margin-right: 5px;
+    /* min-height: 50px; */
+    padding: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.floating:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+
+    .top_section,
+    .same {
+        margin: auto !important;
+        width: 100%;
+    }
+
+    .floating {
+
+        top: 12%;
+        margin-right: 10px;
+        padding: 2px;
+        font-size: 10px;
+        opacity: 1;
+    }
+
+    .top_section {
+        margin: auto;
+        text-align: center;
+        padding: 20px 30px;
+    }
+}
+
+/* Socaial Section */
+.social {
+    text-align: center;
+}
+
+.social h2 {
+    text-align: left;
+}
+
+.social .row .platform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.social .row .platform img {
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.social .row .platform a {
+    text-decoration: none;
+    padding: 10px;
+    /* border: none; */
+    border-bottom: 2px solid white;
+    color: green;
+    font-weight: bold;
+}
+
+.social .row .platform a:hover {
+    border-bottom: 2px solid green;
+    transition: 0.4s;
+}
+
+.social .row {
+    background-color: rgb(231, 236, 226);
+    min-width: 100%;
+    display: flex;
+    justify-content: center !important;
+    padding: 2% 5%;
+}
